@@ -36,7 +36,7 @@
 @implementation TachometerViewController
 
 + (NSString *)displayName {
-	return @"Start Me Up";
+	return @"显性动画:transform.rotation.z";
 }
 
 - (void)viewDidLoad {
@@ -68,7 +68,7 @@
 	[self.tachLayer addSublayer:self.pinLayer];
 	
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	[button setTitle:@"REV IT!" forState:UIControlStateNormal];
+	[button setTitle:@"启 动!" forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont boldSystemFontOfSize:20];
     [button sizeToFit];
     CGRect rect = button.bounds;

@@ -33,7 +33,7 @@
 @implementation FlipViewController
 
 + (NSString *)displayName {
-	return @"Flip Views";
+	return @"翻转View:UIView transitionWithView";
 }
 
 - (void)viewDidLoad {

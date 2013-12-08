@@ -31,7 +31,7 @@
 @implementation MakeItStickViewController
 
 + (NSString *)displayName {
-	return @"Make it Stick";
+	return @"显性动画:opacity";
 }
 
 - (void)viewDidLoad {

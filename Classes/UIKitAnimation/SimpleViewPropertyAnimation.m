@@ -32,7 +32,7 @@
 @implementation SimpleViewPropertyAnimation
 
 + (NSString *)displayName {
-	return @"Block-based Animations";
+	return @"常用动画:UIView animateWithDuration";
 }
 
 - (UIGestureRecognizer *)createTapRecognizerWithSelector:(SEL)selector {

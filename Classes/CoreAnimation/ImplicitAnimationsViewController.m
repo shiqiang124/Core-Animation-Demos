@@ -36,7 +36,7 @@
 @implementation ImplicitAnimationsViewController
 
 + (NSString *)displayName {
-	return @"Animatable Properties";
+	return @"隐性动画";
 }
 
 - (id)init {

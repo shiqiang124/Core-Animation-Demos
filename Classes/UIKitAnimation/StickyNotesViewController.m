@@ -28,7 +28,7 @@
 @implementation StickyNotesViewController
 
 + (NSString *)displayName {
-	return @"Sticky Notes";
+	return @"切换页面:UIView transitionWithView";
 }
 
 - (void)viewDidLoad {

@@ -33,7 +33,7 @@
 @implementation PacmanViewController
 
 + (NSString *)displayName {
-	return @"CAcman";
+	return @"显性动画:path&position";
 }
 
 - (void)viewDidLoad {
@@ -72,7 +72,7 @@
 	self.shapeLayer.strokeColor = [UIColor grayColor].CGColor;
 	self.shapeLayer.lineWidth = 1.0f;
 	self.shapeLayer.bounds = CGRectMake(0, 0, diameter, diameter);
-	self.shapeLayer.position = CGPointMake(-40, -100);
+	self.shapeLayer.position = CGPointMake(40, 100);
 	[self.view.layer addSublayer:self.shapeLayer];
 	
 	SEL startSelector = @selector(startAnimation);
@@ -99,12 +99,12 @@
 	
 	// Create digital '2'-shaped path
 	UIBezierPath *path = [UIBezierPath bezierPath];
-	[path moveToPoint:CGPointMake(-40, 100)];
-	[path addLineToPoint:CGPointMake(360, 100)];
-	[path addLineToPoint:CGPointMake(360, 200)];
-	[path addLineToPoint:CGPointMake(-40, 200)];
-	[path addLineToPoint:CGPointMake(-40, 300)];
-	[path addLineToPoint:CGPointMake(360, 300)];
+	[path moveToPoint:CGPointMake(40, 100)];
+	[path addLineToPoint:CGPointMake(280, 100)];
+	[path addLineToPoint:CGPointMake(280, 200)];
+	[path addLineToPoint:CGPointMake(40, 200)];
+	[path addLineToPoint:CGPointMake(40, 300)];
+	[path addLineToPoint:CGPointMake(280, 300)];
 	
 	CAKeyframeAnimation *moveAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
 	moveAnimation.path = path.CGPath;

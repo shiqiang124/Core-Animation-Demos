@@ -73,7 +73,7 @@
 	
 	NSMutableArray *uiKitList = [NSMutableArray array];
 	[uiKitList addObject:[SimpleViewPropertyAnimation class]];
-	[uiKitList addObject:[StickyNotesViewController class]];
+	//[uiKitList addObject:[StickyNotesViewController class]];
 	[uiKitList addObject:[FlipViewController class]];
 
 	

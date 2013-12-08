@@ -42,7 +42,7 @@
 }
 
 + (NSString *)displayName {
-	return @"I'm Batman";
+	return @"显性动画:CAAnimationGroup";
 }
 
 - (void)viewDidLoad {
