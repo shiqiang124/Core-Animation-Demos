@@ -31,7 +31,7 @@
 @implementation SublayerTransformViewController
 
 + (NSString *)displayName {
-	return @"Sublayer Transforms";
+	return @"显性动画:三维透视";
 }
 
 - (void)addLayersWithColors:(NSArray *)colors {

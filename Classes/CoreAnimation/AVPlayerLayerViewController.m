@@ -79,6 +79,7 @@
 // Rotate the layer around the Y-axis as slider value is changed
 -(IBAction)sliderValueChanged:(UISlider *)sender{
 	CALayer *layer = [self.view.layer sublayers][0];
+    NSLog(@"%f",[sender value]);
 	layer.transform = CATransform3DMakeRotation([sender value], 0, 1, 0);
 }
 

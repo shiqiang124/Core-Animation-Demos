@@ -63,9 +63,9 @@
 	[layersList addObject:[BatmanViewController class]];
 	[layersList addObject:[PacmanViewController class]];
 	[layersList addObject:[SublayerTransformViewController class]];
-	[layersList addObject:[AVPlayerLayerViewController class]];
-	[layersList addObject:[NSAViewController class]];
-	[layersList addObject:[ReflectionViewController class]];
+	//[layersList addObject:[AVPlayerLayerViewController class]];
+	//[layersList addObject:[NSAViewController class]];
+	//[layersList addObject:[ReflectionViewController class]];
 	[layersList addObject:[PulseViewController class]];
 
 	NSDictionary *layers = @{@"Core Animation": layersList};

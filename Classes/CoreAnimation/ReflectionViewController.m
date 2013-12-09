@@ -27,7 +27,7 @@
 @implementation ReflectionViewController
 
 + (NSString *)displayName {
-	return @"Reflections";
+	return @"Layer:倒影";
 }
 
 - (void)viewDidLoad {

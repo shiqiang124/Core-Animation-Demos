@@ -27,7 +27,7 @@
 @implementation PulseViewController
 
 + (NSString *)displayName {
-	return @"Pulse";
+	return @"显性动画:CATransform3DMakeScale";
 }
 
 - (void)viewDidLoad {
