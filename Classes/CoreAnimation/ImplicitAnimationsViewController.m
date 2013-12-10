@@ -69,6 +69,7 @@
 - (IBAction)toggleColor {
 	[CATransaction setDisableActions:self.actionsSwitch.on];
 	CGColorRef redColor = [UIColor redColor].CGColor, blueColor = [UIColor blueColor].CGColor;
+    //非 rootLayer才能实现隐性动画
 	self.layer.backgroundColor = (self.layer.backgroundColor == redColor) ? blueColor : redColor;
 }
 

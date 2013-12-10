@@ -54,6 +54,7 @@
 	animation.toValue = @0.0f;
 	animation.fromValue = @(self.layer.opacity);
 	animation.duration = 1.0;
+    //TODO 不理解这里这个隐性动画为什么没有执行，被覆盖了？
 	self.layer.opacity = 0.0; // This is required to update the model's value.  Comment out to see what happens.
 	[self.layer addAnimation:animation forKey:@"animateOpacity"];
 }
