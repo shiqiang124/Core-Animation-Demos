@@ -37,6 +37,7 @@
 #import "PulseViewController.h"
 #import "MakeItStickViewController.h"
 #import "SublayerTransformViewController.h"
+#import "KeyframeViewController.h"
 
 @interface UIViewController ()
 + (NSString *)displayName;
@@ -63,10 +64,12 @@
 	[layersList addObject:[BatmanViewController class]];
 	[layersList addObject:[PacmanViewController class]];
 	[layersList addObject:[SublayerTransformViewController class]];
+    
 	//[layersList addObject:[AVPlayerLayerViewController class]];
 	//[layersList addObject:[NSAViewController class]];
 	//[layersList addObject:[ReflectionViewController class]];
 	[layersList addObject:[PulseViewController class]];
+    [layersList addObject:[KeyframeViewController class]];
 
 	NSDictionary *layers = @{@"Core Animation": layersList};
 	[self.items addObject:layers];

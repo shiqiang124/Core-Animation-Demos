@@ -60,6 +60,7 @@
 		C4C6AFD41327146E005AB613 /* PulseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C6AFD31327146E005AB613 /* PulseViewController.m */; };
 		C4C6B05813274C8E005AB613 /* MakeItStickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C6B05713274C8E005AB613 /* MakeItStickViewController.m */; };
 		C4DDB1A41320BAB3005E4D71 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DDB1A31320BAB3005E4D71 /* QuartzCore.framework */; };
+		CEA95E82187AAAD90088F057 /* KeyframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA95E81187AAAD90088F057 /* KeyframeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +137,8 @@
 		C4C6B05613274C8E005AB613 /* MakeItStickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeItStickViewController.h; sourceTree = "<group>"; };
 		C4C6B05713274C8E005AB613 /* MakeItStickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeItStickViewController.m; sourceTree = "<group>"; };
 		C4DDB1A31320BAB3005E4D71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEA95E80187AAAD90088F057 /* KeyframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeViewController.h; sourceTree = "<group>"; };
+		CEA95E81187AAAD90088F057 /* KeyframeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +238,8 @@
 				C456E7DB1328A45700E7E245 /* SublayerTransformViewController.m */,
 				C436495D1323954E00107F88 /* TachometerViewController.h */,
 				C436495E1323954E00107F88 /* TachometerViewController.m */,
+				CEA95E80187AAAD90088F057 /* KeyframeViewController.h */,
+				CEA95E81187AAAD90088F057 /* KeyframeViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 				C43649601323954E00107F88 /* PacmanViewController.m in Sources */,
 				C43649611323954E00107F88 /* TachometerViewController.m in Sources */,
 				C4334BB813248BE80023A4EA /* NSAViewController.m in Sources */,
+				CEA95E82187AAAD90088F057 /* KeyframeViewController.m in Sources */,
 				C4885B241324B57200E9CAD2 /* SimpleViewPropertyAnimation.m in Sources */,
 				C423AA4C1325414100B2A34D /* StickyNotesViewController.m in Sources */,
 				C423AA52132543A300B2A34D /* NoteView.m in Sources */,
